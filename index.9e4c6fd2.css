@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#headContainer {
+  background-color: #7ee1f0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+}
+
+#headerLeft img {
+  width: 150px;
+}
+
+#headerRight {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+#headerRight div {
+  color: #373920;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.bodyContainer {
+  width: 185px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+}
+
+.bodyContainer img {
+  width: 100%;
+}
+
+.Body {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.foodName {
+  font-family: Courier New, Courier, monospace;
+  font-weight: 39px;
+}
+
+#headerCenter {
+  color: #373920;
+  background-color: #7fffd4;
+  border-radius: 4px;
+}
+
+.icons {
+  flex-direction: column-reverse;
+  align-items: center;
+  display: flex;
+}
+
+footer {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.footer-logo img {
+  height: 40px;
+}
+
+.footer-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin-right: 15px;
+  display: inline;
+}
+
+.footer-links ul li a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+.footer-social ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-social ul li {
+  margin-right: 10px;
+  display: inline;
+}
+
+.footer-social ul li a {
+  color: #f7f7f7;
+  font-size: 18px;
+}
+
+.footer-bottom {
+  color: #f8f8f8;
+  background-color: #333;
+  border-top: 1px solid #ddd;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-top: 10px;
+  display: flex;
+}
+
+.footer-bottom p {
+  color: #777;
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-bottom p a {
+  color: #777;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
